@@ -18,7 +18,7 @@ const homeStyles = StyleSheet.create({
     fontWeight: "bold",
     fontSize: 28,
   },
-  inputContainer: { height: "50%", width: "90%", justifyContent:'center' },
+  inputContainer: { height: "50%", width: "90%", justifyContent:'center', marginTop:30 },
   inputLabel: {
     color: "white",
     fontWeight: "bold",
@@ -30,7 +30,8 @@ const homeStyles = StyleSheet.create({
     borderRadius: 4,
     marginTop: 10,
     marginBottom: 20,
-    padding: 4,
+    padding: 5,
+    fontSize:18,
   },
   button: {
     backgroundColor: "#ea4535",
