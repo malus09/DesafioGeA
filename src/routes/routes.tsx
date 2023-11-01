@@ -6,7 +6,7 @@ import ResultPage from "../pages/Result/result";
 const AppStack = createNativeStackNavigator();
 
 const Routes: React.FC = () => (
-  <AppStack.Navigator initialRouteName="Resultado">
+  <AppStack.Navigator initialRouteName="Home">
     <AppStack.Screen
       name="Home"
       component={HomePage}
@@ -15,7 +15,9 @@ const Routes: React.FC = () => (
     <AppStack.Screen
       name="Resultado"
       component={ResultPage}
-      options={{ title: "Resultado", headerShown: false }}
+      options={{
+        headerShown: false,
+      }}
     />
   </AppStack.Navigator>
 );

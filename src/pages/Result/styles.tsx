@@ -14,32 +14,37 @@ const resultStyle = StyleSheet.create({
     alignItems: "center",
   },
   titulo: {
-    color: "white",
+    color: "#32dd58",
     fontWeight: "bold",
     fontSize: 28,
   },
-  inputContainer: { height: "50%", width: "90%", justifyContent:'center' },
+  inputContainer: {
+    height: "20%",
+    width: "100%",
+    alignItems: "center",
+  },
   inputLabel: {
     color: "white",
-    fontWeight: "bold",
     fontSize: 16,
+    margin:6,
+    marginTop:4,
   },
-  textInput: {
-    backgroundColor: "white",
-    height: 50,
-    borderRadius: 4,
-    marginTop: 10,
-    marginBottom: 20,
-    padding: 4,
-  },
+  
   button: {
-    backgroundColor: "#ea4535",
+    backgroundColor: "transparent",
+    borderWidth: 1,
+    borderColor: "#ea4535",
     alignItems: "center",
     justifyContent: "center",
-    height: 50,
+    minHeight: 30,
+    maxHeight:'auto',
+    width: "60%",
     borderRadius: 4,
     flexDirection: "row",
+    marginTop:'6%',
+    padding:6,
   },
+  buttonText: { color: "#ea4535", fontSize: 16, fontWeight:"bold" },
 });
 
 export default resultStyle;
